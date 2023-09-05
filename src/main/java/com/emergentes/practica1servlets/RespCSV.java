@@ -20,11 +20,11 @@ public class RespCSV extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("application/csv");
-        response.setHeader("Content-Disposition", "attachment;filename=archivo.csv");
+        response.setHeader("Content-Disposition", "attachment;filename=JHONATANZARZURI.csv");
         PrintWriter out = response.getWriter();
         try {
             out.println(" id ; tnonbre ; apell idos ; edad ");
-            out.println("1; Juan; Pinto; 21");
+            out.println("1; Jhonatan; Zarzuri; 22");
             out.println("2; Bruno; Diaz; 18");
             out.println("3; Armando; Mesa; 30 ");
         } finally {

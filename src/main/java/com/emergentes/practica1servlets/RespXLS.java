@@ -20,7 +20,7 @@ public class RespXLS extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("application/vn.ms-excel");
-        response.setHeader("Content-Disposition", "attachment;filename=archivo.xls");
+        response.setHeader("Content-Disposition", "attachment;filename=JHONATANZARZURI.xls");
         PrintWriter out = response.getWriter();
         try {
             out.println("Respuesta generada desde el Excel");
@@ -28,6 +28,7 @@ public class RespXLS extends HttpServlet {
             out.println("200");
             out.println("La suma es:\t");
             out.println("=suma(a2:a3)");
+            out.println("Jhonatan Zarzuri");
         } finally {
             out.close();
         }

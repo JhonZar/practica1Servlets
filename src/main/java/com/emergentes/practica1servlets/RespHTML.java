@@ -24,10 +24,10 @@ public class RespHTML extends HttpServlet {
         try {
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Document</title>");
+            out.println("<title>JHONATANZARZURI</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>HTML generado desde un Servlet</h1>");
+            out.println("<h1>HTML generado desde un Servlet nombre Jhonatan Zarzuri</h1>");
             out.println("</body>");
             out.println("</html>");
         } finally {

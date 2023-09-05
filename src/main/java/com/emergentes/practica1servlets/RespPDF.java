@@ -20,7 +20,7 @@ public class RespPDF extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("application/pdf");
-        response.setHeader("Content-Disposition", "attachment;filename=archivo.pdf");
+        response.setHeader("Content-Disposition", "attachment;filename=JHONATANZARZURI.pdf");
 
         try {
             // Crear un objeto Document

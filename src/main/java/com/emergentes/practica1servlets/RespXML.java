@@ -18,6 +18,7 @@ public class RespXML extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             out.println("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+            out.println("<nombre>Jhonatan Zarzuri</nombre>");
             out.println("<CATALOGO>");
             out.println("<CD>");
             out.println("<TITULO>TINTA ROJA</TITULO>");

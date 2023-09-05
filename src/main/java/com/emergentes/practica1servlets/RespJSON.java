@@ -18,9 +18,9 @@ public class RespJSON extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             out.print("{\"empleados\":[");
-            out.print("{\"nombre\":\"Bruno\",\"apellidos\":\"Diaz\"},");
             out.print("{\"nombre\":\"Jhonatan Luis\",\"apellidos\":\"Zarzuri Chauca\"},");
             out.print("{\"nombre\":\"Dolores\",\"apellidos\":\"Paredes\"},");
+            out.print("{\"nombre\":\"Bruno\",\"apellidos\":\"Diaz\"},");
             out.print("{\"nombre\":\"Bruno\",\"apellidos\":\"Diaz\"},");
             out.print("]}");
         } finally {
